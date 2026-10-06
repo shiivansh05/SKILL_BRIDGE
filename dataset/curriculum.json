@@ -1,0 +1,30 @@
+{
+  "university_id": "u_you",
+  "university_name": "Your University",
+  "official_email": "industry.cell@youruniversity.example.edu",
+  "website": "https://youruniversity.example.edu",
+  "departments": ["Computer Science & Engineering", "Information Technology", "Data Science", "Electronics"],
+  "contact_person": "Industry Cell / Dean of Academics",
+  "coverage": {
+    "python": { "course": "Programming Fundamentals / Python Lab", "semester": "II", "coverage_score": 95, "label": "High" },
+    "sql": { "course": "Database Management Systems", "semester": "IV", "coverage_score": 90, "label": "High" },
+    "ml": { "course": "Machine Learning & AI", "semester": "VI", "coverage_score": 80, "label": "High" },
+    "cloud": { "course": "Cloud Computing (Theory only)", "semester": "VI", "coverage_score": 60, "label": "Moderate" },
+    "docker": { "course": "Operating Systems / Network Lab", "semester": "V", "coverage_score": 45, "label": "Low" },
+    "genai": { "course": "AI Elective (Conceptual)", "semester": "VII", "coverage_score": 45, "label": "Low" },
+    "dataviz": { "course": "Data Analytics & Visualization Lab", "semester": "V", "coverage_score": 85, "label": "High" },
+    "git": { "course": "Software Engineering & Capstone", "semester": "IV", "coverage_score": 85, "label": "High" }
+  },
+  "benchmark": [
+    { "rank": 1, "university_id": "u_a", "name": "University A", "score": 86 },
+    { "rank": 2, "university_id": "u_b", "name": "University B", "score": 82 },
+    { "rank": 3, "university_id": "u_you", "name": "Your University", "score": 74, "is_own": true },
+    { "rank": 4, "university_id": "u_c", "name": "University C", "score": 71 },
+    { "rank": 5, "university_id": "u_d", "name": "University D", "score": 69 },
+    { "rank": 6, "university_id": "u_e", "name": "University E", "score": 66 },
+    { "rank": 7, "university_id": "u_f", "name": "University F", "score": 63 },
+    { "rank": 8, "university_id": "u_g", "name": "University G", "score": 60 },
+    { "rank": 9, "university_id": "u_h", "name": "University H", "score": 57 },
+    { "rank": 10, "university_id": "u_i", "name": "University I", "score": 52 }
+  ]
+}

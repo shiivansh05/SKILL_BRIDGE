@@ -1,0 +1,15 @@
+{
+  "skills": [
+    { "id": "python", "name": "Python", "category": "Programming", "aliases": ["python", "py", "python3"] },
+    { "id": "sql", "name": "SQL", "category": "Data", "aliases": ["sql", "mysql", "postgresql", "sqlite"] },
+    { "id": "ml", "name": "Machine Learning", "category": "AI / Data", "aliases": ["machine learning", "ml", "scikit-learn"] },
+    { "id": "pandas", "name": "Pandas", "category": "Data", "aliases": ["pandas", "python data"] },
+    { "id": "cloud", "name": "Cloud (AWS / Azure / GCP)", "category": "Infrastructure", "aliases": ["cloud", "aws", "azure", "gcp"] },
+    { "id": "docker", "name": "Docker", "category": "Infrastructure", "aliases": ["docker", "containers", "containerization"] },
+    { "id": "genai", "name": "Generative AI", "category": "AI / Data", "aliases": ["generative ai", "genai", "llm", "rag", "prompts"] },
+    { "id": "dataviz", "name": "Data Visualization", "category": "Data", "aliases": ["data visualization", "power bi", "tableau", "matplotlib"] },
+    { "id": "git", "name": "Git / Version Control", "category": "Engineering", "aliases": ["git", "github", "version control"] },
+    { "id": "rest_apis", "name": "REST APIs", "category": "Engineering", "aliases": ["rest", "rest apis", "api", "flask", "fastapi"] },
+    { "id": "comm", "name": "Communication", "category": "Soft Skills", "aliases": ["communication", "presentation", "documentation"] }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "demo_student": {
+    "id": "s_meera",
+    "name": "Meera Iyer",
+    "email": "meera.iyer@student.example.edu",
+    "university": "Your University",
+    "course": "B.Tech",
+    "branch": "Computer Science & Engineering",
+    "graduation_year": 2027,
+    "semester": 6,
+    "cgpa": 8.92,
+    "location": "Bengaluru, India",
+    "phone": "+91 98765 43210",
+    "career_interests": "Data Scientist, Machine Learning Intern, Data Analyst",
+    "bio": "B.Tech Computer Science student at Your University (2027) focused on practical Machine Learning, data pipelines, and SQL database analytics.",
+    "skills": [
+      { "id": "python", "name": "Python", "level": "Advanced", "numeric_level": 95, "required_level": 80, "verified": true, "evidence": "Course grade + certificate", "category": "Programming" },
+      { "id": "sql", "name": "SQL", "level": "Advanced", "numeric_level": 90, "required_level": 75, "verified": true, "evidence": "Course grade + certificate", "category": "Data" },
+      { "id": "pandas", "name": "Pandas", "level": "Intermediate", "numeric_level": 85, "required_level": 75, "verified": true, "evidence": "Reviewed project", "category": "Data" },
+      { "id": "ml", "name": "Machine Learning", "level": "Intermediate", "numeric_level": 80, "required_level": 80, "verified": true, "evidence": "Course grade + certificate", "category": "AI / Data" },
+      { "id": "dataviz", "name": "Data Visualization", "level": "Intermediate", "numeric_level": 85, "required_level": 70, "verified": true, "evidence": "Certificate", "category": "Data" },
+      { "id": "docker", "name": "Docker", "level": "Intermediate", "numeric_level": 65, "required_level": 75, "verified": false, "evidence": "Personal project, no certificate", "category": "Infrastructure" },
+      { "id": "comm", "name": "Communication", "level": "Proficient", "numeric_level": 75, "required_level": 75, "verified": false, "evidence": "No verified evidence", "category": "Soft Skills" }
+    ],
+    "projects": [
+      { "id": "p1", "title": "Customer Churn Prediction Engine", "description": "Engineered churn prediction pipeline utilizing XGBoost & Pandas with 89% ROC-AUC on Flask.", "date": "2026-05-10" },
+      { "id": "p2", "title": "Automated SQL Query Analytics Engine", "description": "Built natural language interface to SQL queries using SQLite metadata.", "date": "2026-07-22" }
+    ],
+    "certificates": [
+      { "id": "c1", "name": "NPTEL Python Data Science Specialist", "issuer": "NPTEL", "date": "2026-04-15" },
+      { "id": "c2", "name": "DeepLearning.AI Machine Learning Specialization", "issuer": "Coursera", "date": "2026-06-20" }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "id": "c_meera",
+      "name": "Meera Iyer",
+      "college": "Your University",
+      "course": "B.Tech CSE (2027)",
+      "cgpa": 8.92,
+      "student_skills": [
+        { "name": "Python", "level": "Advanced", "verified": true, "source": "Course grade + certificate" },
+        { "name": "SQL", "level": "Advanced", "verified": true, "source": "Course grade + certificate" },
+        { "name": "Pandas", "level": "Intermediate", "verified": true, "source": "Reviewed project" },
+        { "name": "Machine Learning", "level": "Intermediate", "verified": true, "source": "Course grade + certificate" },
+        { "name": "Docker", "level": "Intermediate", "verified": false, "source": "Personal project, no certificate" }
+      ],
+      "concern": "Communication — no verified evidence yet",
+      "missing": ["AWS"],
+      "projects": ["Customer Churn Prediction Engine (Flask & XGBoost)", "Automated SQL Query Analytics Engine"],
+      "certificates": ["NPTEL Python Data Science Specialist", "DeepLearning.AI Machine Learning Specialization"],
+      "experience": "Academic research assistant in Applied ML Lab; built reproducible data pipelines."
+    },
+    {
+      "id": "c_kavya",
+      "name": "Kavya Nair",
+      "college": "RV College of Engineering",
+      "course": "B.Tech Information Science",
+      "cgpa": 8.75,
+      "student_skills": [
+        { "name": "Python", "level": "Advanced", "verified": true, "source": "Course grade + certificate" },
+        { "name": "SQL", "level": "Intermediate", "verified": true, "source": "Course grade" },
+        { "name": "Pandas", "level": "Intermediate", "verified": true, "source": "Reviewed project" },
+        { "name": "AWS", "level": "Intermediate", "verified": false, "source": "Self-reported lab" },
+        { "name": "Docker", "level": "Intermediate", "verified": false, "source": "Self-reported" }
+      ],
+      "concern": null,
+      "missing": ["Machine Learning"],
+      "projects": ["Serverless ETL Pipeline on AWS", "Retail Insights Dashboard"],
+      "certificates": ["AWS Cloud Practitioner Essentials", "DataCamp SQL Professional"],
+      "experience": "Summer Intern at CloudCraft Solutions; automated data ingestion scripts."
+    },
+    {
+      "id": "c_rohan",
+      "name": "Rohan Das",
+      "college": "PES University",
+      "course": "B.Tech Computer Science",
+      "cgpa": 8.60,
+      "student_skills": [
+        { "name": "Python", "level": "Advanced", "verified": true, "source": "Course grade + certificate" },
+        { "name": "SQL", "level": "Advanced", "verified": true, "source": "Course grade + certificate" },
+        { "name": "Pandas", "level": "Advanced", "verified": true, "source": "Reviewed project" },
+        { "name": "Machine Learning", "level": "Intermediate", "verified": false, "source": "Personal GitHub repository" }
+      ],
+      "concern": null,
+      "missing": ["AWS", "Docker"],
+      "projects": ["Audio Classification with ResNet", "Stock Price Volatility Analyzer"],
+      "certificates": ["Kaggle Intermediate Machine Learning"],
+      "experience": "Junior Contributor to Open-Source Data Tools."
+    },
+    {
+      "id": "c_sahil",
+      "name": "Sahil Verma",
+      "college": "BMS College of Engineering",
+      "course": "B.Tech Electronics & Comm",
+      "cgpa": 7.80,
+      "student_skills": [
+        { "name": "Python", "level": "Intermediate", "verified": true, "source": "Introductory course grade" },
+        { "name": "SQL", "level": "Beginner", "verified": false, "source": "Self-declared" }
+      ],
+      "concern": "Limited data science coursework",
+      "missing": ["Pandas", "Machine Learning", "AWS", "Docker"],
+      "projects": ["Basic Portfolio Website", "CLI Database Management Utility"],
+      "certificates": ["Python for Beginners Certificate"],
+      "experience": "College Robotics Club Software Lead."
+    },
+    {
+      "id": "c_ananya",
+      "name": "Ananya Roy",
+      "college": "COEP Pune",
+      "course": "B.Tech Computer Engineering",
+      "cgpa": 9.10,
+      "student_skills": [
+        { "name": "SQL", "level": "Advanced", "verified": true, "source": "DBMS course honors grade" },
+        { "name": "Python", "level": "Advanced", "verified": true, "source": "Certificate + project" },
+        { "name": "Data Visualization", "level": "Advanced", "verified": true, "source": "Tableau Certified" },
+        { "name": "Statistics", "level": "Intermediate", "verified": true, "source": "Course grade" }
+      ],
+      "concern": null,
+      "missing": ["Excel"],
+      "projects": ["Retail Store Footfall Tracker", "Supermarket Inventory Optimizer"],
+      "certificates": ["Tableau Desktop Specialist", "Advanced SQL Masterclass"],
+      "experience": "Data Analytics Intern at Pune Retail Ventures."
+    },
+    {
+      "id": "c_tarun",
+      "name": "Tarun Joshi",
+      "college": "MIT WPU",
+      "course": "B.Tech IT",
+      "cgpa": 8.35,
+      "student_skills": [
+        { "name": "SQL", "level": "Intermediate", "verified": true, "source": "Course grade" },
+        { "name": "Python", "level": "Intermediate", "verified": true, "source": "Course grade" },
+        { "name": "Data Visualization", "level": "Intermediate", "verified": false, "source": "Personal Power BI dashboard" }
+      ],
+      "concern": "Data Visualization relies on self-reported dashboard",
+      "missing": ["Excel", "Statistics"],
+      "projects": ["E-commerce Analytics Power BI Board", "Hospital Billing SQL Scripts"],
+      "certificates": ["SQL for Data Analysis"],
+      "experience": "Freelance BI Dashboard Creator."
+    }
+  ]
+}

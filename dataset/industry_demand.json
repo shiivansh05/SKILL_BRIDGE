@@ -1,0 +1,35 @@
+{
+  "last_updated": "2026-10-06",
+  "is_sample_data": true,
+  "baseline": [
+    { "id": "python", "name": "Python", "category": "Programming", "demand_index": 95, "trend": "→ Stable", "emerging": false },
+    { "id": "sql", "name": "SQL", "category": "Data", "demand_index": 90, "trend": "→ Stable", "emerging": false },
+    { "id": "ml", "name": "Machine Learning", "category": "AI / Data", "demand_index": 85, "trend": "↑ Rising", "emerging": false },
+    { "id": "cloud", "name": "Cloud (AWS / Azure / GCP)", "category": "Infrastructure", "demand_index": 88, "trend": "↑ Rising", "emerging": false },
+    { "id": "docker", "name": "Docker", "category": "Infrastructure", "demand_index": 78, "trend": "↑ Rising", "emerging": false },
+    { "id": "genai", "name": "Generative AI", "category": "AI / Data", "demand_index": 72, "trend": "↑ Rising", "emerging": true },
+    { "id": "dataviz", "name": "Data Visualization", "category": "Data", "demand_index": 70, "trend": "→ Stable", "emerging": false },
+    { "id": "git", "name": "Git / Version Control", "category": "Engineering", "demand_index": 65, "trend": "→ Stable", "emerging": false }
+  ],
+  "refreshed": [
+    { "id": "python", "name": "Python", "category": "Programming", "demand_index": 95, "trend": "→ Stable", "emerging": false },
+    { "id": "sql", "name": "SQL", "category": "Data", "demand_index": 90, "trend": "→ Stable", "emerging": false },
+    { "id": "ml", "name": "Machine Learning", "category": "AI / Data", "demand_index": 85, "trend": "↑ Rising", "emerging": false },
+    { "id": "cloud", "name": "Cloud (AWS / Azure / GCP)", "category": "Infrastructure", "demand_index": 90, "trend": "↑ Rising", "emerging": false },
+    { "id": "docker", "name": "Docker", "category": "Infrastructure", "demand_index": 80, "trend": "↑ Rising", "emerging": false },
+    { "id": "genai", "name": "Generative AI", "category": "AI / Data", "demand_index": 76, "trend": "↑ Rising", "emerging": true },
+    { "id": "dataviz", "name": "Data Visualization", "category": "Data", "demand_index": 70, "trend": "→ Stable", "emerging": false },
+    { "id": "git", "name": "Git / Version Control", "category": "Engineering", "demand_index": 65, "trend": "→ Stable", "emerging": false }
+  ],
+  "role_wise": {
+    "Data Science Intern": ["Python", "SQL", "Machine Learning"],
+    "Data Analyst Intern": ["SQL", "Python", "Data Visualization"],
+    "Junior ML Engineer": ["Python", "Machine Learning", "Docker", "Cloud (AWS / Azure / GCP)"],
+    "Backend Developer Intern": ["Python", "SQL", "REST APIs", "Git / Version Control"]
+  },
+  "industry_wise": {
+    "Retail Analytics": ["SQL", "Python", "Data Visualization"],
+    "Cloud & Infrastructure": ["Cloud (AWS / Azure / GCP)", "Docker", "Python"],
+    "Healthcare Data": ["Python", "SQL", "Git / Version Control"]
+  }
+}

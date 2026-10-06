@@ -1,0 +1,83 @@
+/* SkillBridge Design System — Tokens & Global Rules */
+:root {
+  --sb-navy: #0F2747;
+  --sb-navy-hover: #0B1E38;
+  --sb-blue: #1E5AA8;
+  --sb-blue-hover: #184A8B;
+  --sb-blue-50: #EAF1FA;
+  --sb-teal: #187C7A;
+  --sb-teal-50: #E6F2F2;
+
+  --sb-bg: #F7F8FA;
+  --sb-surface: #FFFFFF;
+  --sb-fill: #F0F3F6;
+  --sb-text: #172033;
+  --sb-text-2: #5F6B7A;
+  --sb-text-disabled: #8A94A3;
+  --sb-border: #DCE2E8;
+  --sb-border-strong: #C4CCD6;
+
+  --sb-success: #2F7D4F;
+  --sb-success-bg: #E8F3EC;
+  --sb-warning: #9A6A12;
+  --sb-warning-bg: #FBF3E0;
+  --sb-error: #B3433F;
+  --sb-error-bg: #FAEAE9;
+
+  --sb-radius-sm: 6px;
+  --sb-radius-md: 8px;
+  --sb-radius-lg: 12px;
+
+  --sb-shadow-sm: 0 1px 2px rgba(15, 39, 71, 0.06);
+  --sb-shadow-md: 0 4px 12px rgba(15, 39, 71, 0.08);
+
+  --sb-focus: 0 0 0 3px rgba(30, 90, 168, 0.35);
+}
+
+body {
+  font-family: 'IBM Plex Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--sb-bg);
+  color: var(--sb-text);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle transitions (120-180ms ease-out) */
+* {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.fade-in {
+  animation: fadeIn 150ms ease-out forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C4CCD6; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #8A94A3; }
+
+/* Accessible Pulse */
+.pulse-subtle {
+  animation: pulse-ring 3s infinite;
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(30, 90, 168, 0.35); }
+  70% { box-shadow: 0 0 0 8px rgba(30, 90, 168, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(30, 90, 168, 0); }
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
